@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: redis
-          image: redis:6.0.1
+          image: quay.io/bitnami/redis:6.0.13
           imagePullPolicy: IfNotPresent
           command:
             - redis-server
