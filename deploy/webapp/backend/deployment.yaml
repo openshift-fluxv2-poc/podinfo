@@ -46,7 +46,7 @@ spec:
         - --level=info
         env:
         - name: PODINFO_UI_COLOR
-          value: "#34577c"
+          value: "#F5B041"
         livenessProbe:
           exec:
             command:
