@@ -1,9 +1,8 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: DeploymentAbc
 metadata:
   name: backend
 spec:
-  xyacd: 1111
   minReadySeconds: 3
   revisionHistoryLimit: 5
   progressDeadlineSeconds: 60
